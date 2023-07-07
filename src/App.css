@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 60rem;
+  margin: 0 auto;
+}
