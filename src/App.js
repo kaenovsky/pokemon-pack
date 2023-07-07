@@ -1,15 +1,15 @@
 import './App.css';
-import PokeBox from './PokeBox';
+import Pokemon from './Pokemon';
 
 function App() {
   return (
     <div className="App">
-      <PokeBox />
-      <PokeBox />
-      <PokeBox />
-      <PokeBox />
-      <PokeBox />
-      <PokeBox />
+      <Pokemon />
+      <Pokemon />
+      <Pokemon />
+      <Pokemon />
+      <Pokemon />
+      <Pokemon />
     </div>
   );
 }
