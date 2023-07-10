@@ -1,8 +1,13 @@
 .header {
     margin: 2rem auto;
     text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: baseline;
 }
 
-img {
+.logo {
     max-width: 15rem;
+    margin-right: 1.2rem;
 }
