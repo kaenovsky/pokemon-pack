@@ -1,5 +1,5 @@
 import './App.css';
-import Pokemon from './Pokemon';
+import PokemonPack from './PokemonPack';
 import Header from './Header';
 
 function App() {
@@ -7,12 +7,7 @@ function App() {
     <>
     <Header />
     <div className="App">
-      <Pokemon />
-      <Pokemon />
-      <Pokemon />
-      <Pokemon />
-      <Pokemon />
-      <Pokemon />
+      <PokemonPack />
     </div>
     </>
   );
