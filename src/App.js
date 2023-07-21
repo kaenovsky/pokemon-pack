@@ -1,13 +1,13 @@
 import './App.css';
-import PokemonPack from './PokemonPack';
 import Header from './Header';
+import Pokeball from './Pokeball';
 
 function App() {
   return (
     <>
-    <Header />
     <div className="App">
-      <PokemonPack />
+      <Header />
+      <Pokeball />
     </div>
     </>
   );

@@ -1,12 +1,21 @@
 import "./Pokeball.css";
+import { useState } from "react";
+import PokemonPack from "./PokemonPack";
 
 export default function Pokeball() {
 
-    function refreshPage() {
-        window.location.reload(false);
+    const [state, setState] = useState();
+    
+    const refreshPage = () => {
+        setState({});
     }
 
     return (
-        <div id="pokeball" onClick={refreshPage}></div>
+        <>
+            <div id="pokeball" onClick={refreshPage}></div>
+            <div className="container">
+                <PokemonPack amount={6} />
+            </div>
+        </>
     );
 }

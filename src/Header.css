@@ -1,13 +1,7 @@
 .header {
     margin: 2rem auto;
-    text-align: center;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: baseline;
 }
 
 .logo {
-    max-width: 15rem;
-    margin-right: 1.2rem;
+    max-width: 12rem;
 }
