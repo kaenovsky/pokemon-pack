@@ -11,7 +11,7 @@ export default function Pokemon() {
     return [url, goldenBox, randomNum];
   }
   
-  const [pokemon, setPokemon] = useState();
+  const [, setPokemon] = useState();
   const [url, goldenBox, randomNum] = newPokemon();
 
   const reloadPokemon = () => {

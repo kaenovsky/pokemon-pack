@@ -4,7 +4,7 @@ import PokemonPack from "./PokemonPack";
 
 export default function Pokeball() {
 
-    const [state, setState] = useState();
+    const [, setState] = useState();
     
     const refreshPage = () => {
         setState({});
