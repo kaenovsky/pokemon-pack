@@ -11,10 +11,10 @@ Features:
 
 To run this project locally:
 
-1. Clone the repository `git clone https://github.com/kaenovsky/pokemon-pack.git`
-2. Go to the directory `cd pokemon-pack`
-3. run `npm install`
-4. Start a local server with `npm start dev`
+1. Clone the repository: `git clone https://github.com/kaenovsky/pokemon-pack.git`
+2. Go to the directory: `cd pokemon-pack`
+3. Run: `npm install`
+4. Start a local server with: `npm start dev`
 
 If you want more Pokemon components on each refresh, change line 17 of `./src/Pokeball.js` to take a different 'amount' number as props:
 
